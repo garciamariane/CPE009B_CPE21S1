@@ -1,65 +1,12 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyNTo5Xfo+JUEofxEJrrUn+U",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/garciamariane/CPE009B_CPE21S1/blob/main/Cpe009B%20cpe%2021s1-oop2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": 17,
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "iYVo4-OHChmE",
-        "outputId": "7b9012df-876c-46ec-d58c-54505290bc87"
-      },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Enter a number for your grade: -1\n",
-            "negative value is not accepted\n"
-          ]
-        }
-      ],
-      "source": [
-        "\n",
-        "grade = int(input(\"Enter a number for your grade: \"))\n",
-        "\n",
-        "if grade >= 75:\n",
-        "    print(\"passed\")\n",
-        "elif grade == 74:\n",
-        "    print(\"remedial\")\n",
-        "elif grade <0:\n",
-        "    print(\"negative value is not accepted\")\n",
-        "else:\n",
-        "    print(\"failed\")\n",
-        "\n"
-      ]
-    }
-  ]
-}
+
+grade = int(input("Enter a number for your grade: "))
+
+if grade >= 75:
+    print("passed")
+elif grade == 74:
+    print("remedial")
+elif grade <0:
+    print("negative value is not accepted")
+else:
+    print("failed")
+    
